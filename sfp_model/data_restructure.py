@@ -8,7 +8,7 @@ def arff_to_csv(file):
     rows = []
     columns = []
 
-
+    # print(file_content)
     for content in file_content:
       #append @data before the dataset values which will serve as rows in the csv file
       if not content.startswith('@attribute'):
@@ -18,7 +18,7 @@ def arff_to_csv(file):
         column_name = content.split(' ')[1]
         columns.append(column_name)
       elif content.startswith('@data'):
-        rows.append(content.split(' ')[1])
+        rows.append(content.split(' ')[1].replace('\n',''))
       else:
         pass
     row_data = [row.split(',') for row in rows]

@@ -1,0 +1,111 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {kc1-class-level-numericdefect}
+@attribute Key_Run {1,2,3,4,5}
+@attribute Key_Scheme {weka.classifiers.trees.RandomForest,weka.classifiers.functions.Logistic,weka.classifiers.trees.J48}
+@attribute Key_Scheme_options {'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1','-R 1.0E-8 -M -1 -num-decimal-places 4','-C 0.25 -M 2'}
+@attribute Key_Scheme_version_ID {1116839470751428698,3932117032546553727,-217733168393644444}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary {'Number of leaves: 14\nSize of the tree: 27\n','Number of leaves: 10\nSize of the tree: 19\n','Number of leaves: 11\nSize of the tree: 21\n','Number of leaves: 12\nSize of the tree: 23\n'}
+@attribute measureOutOfBagError numeric
+@attribute measureTreeSize numeric
+@attribute measureNumLeaves numeric
+@attribute measureNumRules numeric
+
+@data
+
+kc1-class-level-numericdefect,1,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20220726.1717,96,49,40,9,0,81.632653,18.367347,0,0.616855,0.27551,0.387941,56.805496,78.913955,47.815932,31.226905,16.589027,0.975835,0.637284,0.338552,21.362912,0.435978,44.677394,0.75,15,0.137931,4,0.862069,25,0.25,5,0.789474,0.75,0.769231,0.617415,0.866379,0.793184,0.816327,0.204258,0.795742,0.183673,0.815431,0.816327,0.815528,0.617415,0.866379,0.869076,0.808344,0.816327,0.057,0.002,0.06,0,60,0,178928,82505,45422,100,82.653061,?,-1,?,?,?
+kc1-class-level-numericdefect,2,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20220726.1717,95,50,32,18,0,64,36,0,0.2891,0.359,0.460702,73.871447,93.331714,49.081342,44.424324,4.657018,0.981627,0.888486,0.09314,12.980556,0.259611,26.447028,0.714286,15,0.413793,12,0.586207,17,0.285714,6,0.555556,0.714286,0.625,0.297575,0.745484,0.6231,0.64,0.339507,0.660493,0.36,0.662029,0.64,0.641731,0.297575,0.745484,0.756135,0.639423,0.64,0.044,0.003,0.03,0,30,0,162839,81716,46211,98,87,?,-1,?,?,?
+kc1-class-level-numericdefect,3,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20220726.1717,95,50,34,16,0,68,32,0,0.334443,0.3414,0.462162,70.249894,93.627625,49.081342,1113.849075,-1064.767733,0.981627,22.276982,-21.295355,14.291492,0.28583,29.117974,0.571429,12,0.241379,7,0.758621,22,0.428571,9,0.631579,0.571429,0.6,0.335606,0.756979,0.648189,0.68,0.349951,0.650049,0.32,0.676876,0.68,0.677333,0.335606,0.756979,0.757353,0.666667,0.68,0.031,0.003,0.03,0,30,0,153100,81716,46211,96,81,?,-1,?,?,?
+kc1-class-level-numericdefect,4,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20220726.1717,96,49,36,13,0,73.469388,26.530612,0,0.461538,0.310408,0.412026,63.754491,83.188425,48.336825,1104.223884,-1055.88706,0.986466,22.535181,-21.548716,17.945337,0.366231,37.125602,0.714286,15,0.25,7,0.75,21,0.285714,6,0.681818,0.714286,0.697674,0.461935,0.808673,0.751885,0.734694,0.270408,0.729592,0.265306,0.736652,0.734694,0.735367,0.461935,0.808673,0.810273,0.730655,0.734694,0.053,0.001,0.05,0,50,0,166818,82505,45422,97.959184,82.653061,?,-1,?,?,?
+kc1-class-level-numericdefect,5,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20220726.1717,95,50,38,12,0,76,24,0,0.531981,0.3284,0.427654,67.574883,86.636738,49.081342,39.834324,9.247018,0.981627,0.796686,0.18494,16.693186,0.333864,34.011268,0.904762,19,0.344828,10,0.655172,19,0.095238,2,0.655172,0.904762,0.76,0.559934,0.80624,0.656007,0.76,0.200066,0.799934,0.24,0.799934,0.76,0.76,0.559934,0.80624,0.786426,0.76,0.76,0.058,0.001,0.04,0.01,40,10,160706,81716,46211,98,85,?,-1,?,?,?
+kc1-class-level-numericdefect,1,weka.classifiers.functions.Logistic,'-R 1.0E-8 -M -1 -num-decimal-places 4',3932117032546553727,20220726.1717,96,49,37,12,0,75.510204,24.489796,0,0.493103,0.244899,0.494872,50.494008,100.6656,47.815932,3366.116481,-3318.30055,0.975835,68.696255,-67.720419,23.34812,0.476492,48.829164,0.7,14,0.206897,6,0.793103,23,0.3,6,0.7,0.7,0.7,0.493103,0.725,0.636341,0.755102,0.261999,0.738001,0.244898,0.755102,0.755102,0.755102,0.493103,0.720408,0.69428,0.746552,0.755102,0.256,0.001,0.19,0,190,0,25610,82505,45422,75.510204,50,?,?,?,?,?
+kc1-class-level-numericdefect,2,weka.classifiers.functions.Logistic,'-R 1.0E-8 -M -1 -num-decimal-places 4',3932117032546553727,20220726.1717,95,50,25,25,0,50,50,0,-0.033058,0.499937,0.704894,102.872158,142.801579,49.081342,2127.386819,-2078.305477,0.981627,42.547736,-41.56611,-2.041019,-0.04082,-4.158442,0.380952,8,0.413793,12,0.586207,17,0.619048,13,0.4,0.380952,0.390244,-0.033086,0.543514,0.437273,0.5,0.532841,0.467159,0.5,0.496667,0.5,0.49814,-0.033086,0.529228,0.544286,0.483258,0.5,0.158,0.004,0.13,0.01,130,10,25610,81716,46211,52,52,?,?,?,?,?
+kc1-class-level-numericdefect,3,weka.classifiers.functions.Logistic,'-R 1.0E-8 -M -1 -num-decimal-places 4',3932117032546553727,20220726.1717,95,50,32,18,0,64,36,0,0.270665,0.35789,0.589194,73.643104,119.36244,49.081342,1410.537767,-1361.456425,0.981627,28.210755,-27.229129,12.436113,0.248722,25.33776,0.619048,13,0.344828,10,0.655172,19,0.380952,8,0.565217,0.619048,0.590909,0.271558,0.66092,0.577664,0.64,0.36578,0.63422,0.36,0.645539,0.64,0.641753,0.271558,0.663777,0.659883,0.63474,0.64,0.071,0.002,0.07,0,70,0,25610,81716,46211,68,53,?,?,?,?,?
+kc1-class-level-numericdefect,4,weka.classifiers.functions.Logistic,'-R 1.0E-8 -M -1 -num-decimal-places 4',3932117032546553727,20220726.1717,96,49,31,18,0,63.265306,36.734694,0,0.222222,0.351872,0.581806,72.270786,117.467195,48.336825,1481.795172,-1433.458348,0.986466,30.240718,-29.254252,12.902706,0.263321,26.693325,0.428571,9,0.214286,6,0.785714,22,0.571429,12,0.6,0.428571,0.5,0.230089,0.644558,0.683055,0.632653,0.418367,0.581633,0.367347,0.626891,0.632653,0.619816,0.230089,0.640671,0.662204,0.604839,0.632653,0.05,0.001,0.04,0,40,0,25610,82505,45422,67.346939,53.061224,?,?,?,?,?
+kc1-class-level-numericdefect,5,weka.classifiers.functions.Logistic,'-R 1.0E-8 -M -1 -num-decimal-places 4',3932117032546553727,20220726.1717,95,50,35,15,0,70,30,0,0.371859,0.306055,0.543075,62.976977,110.019422,49.081342,1467.57857,-1418.497229,0.981627,29.351571,-28.369945,17.794154,0.355883,36.254416,0.571429,12,0.206897,6,0.793103,23,0.428571,9,0.666667,0.571429,0.615385,0.374829,0.706076,0.718397,0.7,0.335468,0.664532,0.3,0.696875,0.7,0.695839,0.374829,0.726076,0.733192,0.684741,0.7,0.044,0.001,0.04,0.01,40,10,25610,81716,46211,72,53,?,?,?,?,?
+kc1-class-level-numericdefect,1,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20220726.1717,96,49,37,12,0,75.510204,24.489796,0,0.476868,0.247959,0.475732,51.124946,96.772241,47.815932,9675.018678,-9627.202746,0.975835,197.449361,-196.473525,23.166023,0.472776,48.448336,0.6,12,0.137931,4,0.862069,25,0.4,8,0.75,0.6,0.666667,0.484288,0.748276,0.63754,0.755102,0.293033,0.706967,0.244898,0.754484,0.755102,0.749397,0.484288,0.748276,0.70776,0.736559,0.755102,0.01,0,0.01,0,10,0,13183,82505,45422,81.632653,61.22449,'Number of leaves: 14\nSize of the tree: 27\n',?,27,14,14
+kc1-class-level-numericdefect,2,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20220726.1717,95,50,36,14,0,72,28,0,0.432739,0.282833,0.488275,58.198628,98.917697,49.081342,4332.038403,-4282.957061,0.981627,86.640768,-85.659141,20.310262,0.406205,41.38082,0.714286,15,0.275862,8,0.724138,21,0.285714,6,0.652174,0.714286,0.681818,0.434167,0.78243,0.696413,0.72,0.281576,0.718424,0.28,0.725024,0.72,0.721364,0.434167,0.78243,0.74476,0.715909,0.72,0.008,0.001,0,0,0,0,11727,81716,46211,82,62,'Number of leaves: 10\nSize of the tree: 19\n',?,19,10,10
+kc1-class-level-numericdefect,3,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20220726.1717,95,50,33,17,0,66,34,0,0.288107,0.34,0.578187,69.961816,117.13257,49.081342,15049.187786,-15000.106444,0.981627,300.983756,-300.002129,14.316213,0.286324,29.168341,0.52381,11,0.241379,7,0.758621,22,0.47619,10,0.611111,0.52381,0.564103,0.290408,0.651067,0.54127,0.66,0.37757,0.62243,0.34,0.655417,0.66,0.655284,0.290408,0.651067,0.615707,0.642707,0.66,0.009,0,0,0,0,0,11727,81716,46211,66,50,'Number of leaves: 10\nSize of the tree: 19\n',?,19,10,10
+kc1-class-level-numericdefect,4,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20220726.1717,96,49,29,20,0,59.183673,40.816327,0,0.135802,0.414966,0.626557,85.229541,126.502478,48.336825,18266.754888,-18218.418063,0.986466,372.790916,-371.80445,6.702756,0.136791,13.86677,0.380952,8,0.25,7,0.75,21,0.619048,13,0.533333,0.380952,0.444444,0.14061,0.594388,0.467091,0.591837,0.460884,0.539116,0.408163,0.581513,0.591837,0.577573,0.14061,0.594388,0.566529,0.560932,0.591837,0.008,0.001,0.01,0,10,0,12091,82505,45422,65.306122,56.122449,'Number of leaves: 11\nSize of the tree: 21\n',?,21,11,11
+kc1-class-level-numericdefect,5,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20220726.1717,95,50,39,11,0,78,22,0,0.551387,0.231,0.447996,47.532881,90.757635,49.081342,6460.865648,-6411.784306,0.981627,129.217313,-128.235686,25.683836,0.513677,52.329124,0.761905,16,0.206897,6,0.793103,23,0.238095,5,0.727273,0.761905,0.744186,0.551846,0.797209,0.734541,0.78,0.224992,0.775008,0.22,0.781883,0.78,0.780628,0.551846,0.797209,0.766849,0.775602,0.78,0.01,0,0,0,0,0,12455,81716,46211,88,62,'Number of leaves: 12\nSize of the tree: 23\n',?,23,12,12
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Number_correct
+Datasets:   1
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       26/07/2022, 18:25
+
+
+Dataset                   (1) trees.RandomFo | (2) functions.L (3) trees.J48 '
+------------------------------------------------------------------------------
+kc1-class-level-numericde  (5)   36.00(3.16) |   32.00(4.58)     34.80(3.90)  
+------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/1/0)         (0/1/0)
+
+
+Key:
+(1) trees.RandomForest '-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(2) functions.Logistic '-R 1.0E-8 -M -1 -num-decimal-places 4' 3932117032546553727
+(3) trees.J48 '-C 0.25 -M 2' -217733168393644444
+
